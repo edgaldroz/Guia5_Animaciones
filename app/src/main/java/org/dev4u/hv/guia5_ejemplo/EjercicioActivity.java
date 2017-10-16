@@ -39,21 +39,18 @@ public class EjercicioActivity extends AppCompatActivity {
         btnAnim1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // v.startAnimation(anim_abajo);
                 img1.startAnimation(anim_abajo1);
             }
         });
         btnAnim2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // v.startAnimation(anim_abajo);
                 img2.startAnimation(anim_abajo2);
             }
         });
         btnAnim3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // v.startAnimation(anim_abajo);
                 img3.startAnimation(anim_abajo3);
             }
         });
